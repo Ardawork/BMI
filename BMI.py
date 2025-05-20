@@ -14,5 +14,11 @@ enter_weight = tk.Entry(width = 20)
 enter_weight.place(x = 135, y = 150)
 #-------------------------------------------------------
 
+#Height Section
+height = tk.Label(text = "Height" , font = "Arial")
+height.place(x = 165, y = 200)
+
+enter_height = tk.Entry(width = 20)
+enter_height.place(x = 135, y = 250)
 
 window.mainloop()
