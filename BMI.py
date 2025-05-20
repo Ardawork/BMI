@@ -20,5 +20,15 @@ height.place(x = 165, y = 200)
 
 enter_height = tk.Entry(width = 20)
 enter_height.place(x = 135, y = 250)
+#-------------------------------------------------------
+
+#Calculating
+
+def BMI_cal():
+    bmi_res = int(enter_weight.get()) / (float(enter_height.get()) * float(enter_height.get()))
+    print(bmi_res)
+
+button = tk.Button(window, text = "BMI", command = BMI_cal )
+button.place(x = 175, y = 300)
 
 window.mainloop()
